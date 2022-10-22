@@ -15,9 +15,7 @@ void main()
     cin >> b;
     if (a > b)
     {
-        int x = a;
-        a = b;
-        b = x;
+        cout << "Ошибка";
     }
     
     cout << "\nВсе числа в указаном диапазоне" << endl;
